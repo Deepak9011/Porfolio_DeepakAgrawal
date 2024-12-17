@@ -1,13 +1,12 @@
-import React from "react";
-import "./Services.css";
-import Card from "../Card/Card";
-import HeartEmozi from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
-import Resume from "./CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.pdf";
-import { themeContext } from "../../Context";
-import { useContext } from "react";
 import { motion } from "framer-motion";
+import React, { useContext } from "react";
+import { themeContext } from "../../Context";
+import Glasses from "../../img/glasses.png";
+import HeartEmozi from "../../img/heartemoji.png";
+import Humble from "../../img/humble.png";
+import Card from "../Card/Card";
+import Resume from "./CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.pdf";
+import "./Services.css";
 const Services = () => {
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
@@ -41,7 +40,7 @@ const Services = () => {
           <Card
             emozi={HeartEmozi}
             heading={"Frontend Development"}
-            detail={"Figma, Html, CSS, Java-Scrip"}
+            detail={"HTML, CSS, Java-Script"}
           />
         </motion.div>
         <motion.div
@@ -53,7 +52,7 @@ const Services = () => {
           <Card
             emozi={Glasses}
             heading={"Backend Development"}
-            detail={`Node JS,Django, Java`}
+            detail={`Node JS, Spring, Java`}
           />
         </motion.div>
         <motion.div
@@ -62,7 +61,7 @@ const Services = () => {
           transition={transition}
           style={{ left: "12rem", top: "18rem" }}
         >
-          <Card emozi={Humble} heading={"Database Management"} detail={`MySql`} />
+          <Card emozi={Humble} heading={"Database Management"} detail={`MySQL`} />
         </motion.div>
         <div
           className="blur s-blur2"

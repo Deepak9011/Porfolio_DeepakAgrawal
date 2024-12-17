@@ -1,19 +1,18 @@
-import React from "react";
-import "./Intro.css";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import abhishek from "../../img/abhi.png";
-import Thump from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
-import glassesimoji from "../../img/glassesimoji.png";
-import Flotingdiv from "../flotingdiv/Flotingdiv";
+import { motion } from "framer-motion";
+import React, { useContext } from "react";
 import { Link } from "react-scroll";
 import { themeContext } from "../../Context";
-import { useContext } from "react";
-import { motion } from "framer-motion";
+import abhishek from "../../img/abhi.png";
+import crown from "../../img/crown.png";
+import Github from "../../img/github.png";
+import glassesimoji from "../../img/glassesimoji.png";
+import Instagram from "../../img/instagram.png";
+import LinkedIn from "../../img/linkedin.png";
+import Thump from "../../img/thumbup.png";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
+import Flotingdiv from "../flotingdiv/Flotingdiv";
+import "./Intro.css";
 
 const Intro = () => {
   const transition = { duration: 2, type: "spring" };
@@ -74,7 +73,7 @@ const Intro = () => {
           className="flotingdiv"
           style={{ top: "-24%", left: "78%" }}
         >
-          <Flotingdiv image={crown} text1="Web" text2="Developer" />
+          <Flotingdiv image={crown} text1="Competitive" text2="Programmer" />
         </motion.div>
         <motion.div
           initial={{ top: "18rem", left: "-5rem" }}
@@ -83,7 +82,7 @@ const Intro = () => {
           className="flotingdiv"
           style={{ top: "18rem", left: "-2rem" }}
         >
-          <Flotingdiv image={Thump} text1="Competitive Programmer" text2="" />
+          <Flotingdiv image={Thump} text1="Computer Science Engineering" text2="" />
         </motion.div>
         <div className="blur" style={{ background: "rbg(238 210 255)" }}></div>
         <div
