@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/porfolio_deepakagrawal/static/css/main.47b910e9.css",
-    "main.js": "/porfolio_deepakagrawal/static/js/main.3349aa15.js",
-    "static/media/abhi.png": "/porfolio_deepakagrawal/static/media/abhi.afedc076468c147bce99.png",
-    "static/media/CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.pdf": "/porfolio_deepakagrawal/static/media/CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.54577ad1119969f55083.pdf",
-    "static/media/glassesimoji.png": "/porfolio_deepakagrawal/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/react.png": "/porfolio_deepakagrawal/static/media/react.e767d58738285206407e.png",
-    "static/media/thumbup.png": "/porfolio_deepakagrawal/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/porfolio_deepakagrawal/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/porfolio_deepakagrawal/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/wave.png": "/porfolio_deepakagrawal/static/media/wave.fdfef4069ad90f610990.png",
-    "static/media/crown.png": "/porfolio_deepakagrawal/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/Vector2.png": "/porfolio_deepakagrawal/static/media/Vector2.28db5bfd58081dd1df1b.png",
-    "static/media/glasses.png": "/porfolio_deepakagrawal/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "static/media/mongo.png": "/porfolio_deepakagrawal/static/media/mongo.ac47c497a10891dc7bed.png",
-    "index.html": "/porfolio_deepakagrawal/index.html",
-    "main.47b910e9.css.map": "/porfolio_deepakagrawal/static/css/main.47b910e9.css.map",
-    "main.3349aa15.js.map": "/porfolio_deepakagrawal/static/js/main.3349aa15.js.map"
+    "main.css": "/static/css/main.47b910e9.css",
+    "main.js": "/static/js/main.64c413da.js",
+    "static/media/abhi.png": "/static/media/abhi.afedc076468c147bce99.png",
+    "static/media/CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.pdf": "/static/media/CV01Page_0801CS211034_BT_CS_Deepak_Agrawal.54577ad1119969f55083.pdf",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/react.png": "/static/media/react.e767d58738285206407e.png",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/mongo.png": "/static/media/mongo.ac47c497a10891dc7bed.png",
+    "index.html": "/index.html",
+    "main.47b910e9.css.map": "/static/css/main.47b910e9.css.map",
+    "main.64c413da.js.map": "/static/js/main.64c413da.js.map"
   },
   "entrypoints": [
     "static/css/main.47b910e9.css",
-    "static/js/main.3349aa15.js"
+    "static/js/main.64c413da.js"
   ]
 }
