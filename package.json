@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://Deepak9011.github.io/porfolio_deepakagrawal/",
   "name": "porfolio_deepakagrawal",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,6 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.0",
     "framer-motion": "^7.0.0",
-    "gh-pages": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -22,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.3.0"
   }
 }
